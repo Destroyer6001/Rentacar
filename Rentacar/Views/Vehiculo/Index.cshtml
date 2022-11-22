@@ -1,0 +1,77 @@
+﻿@model IEnumerable<VehiculoViewModel>
+@{
+    ViewData["Title"] = "Vehiculos";
+}
+<div class="row">
+    <div class="col-md-10 offset-md-1 by-10 " id="IndexVehiculos">
+        <div class="row" id="TituloIndiceVehiculos">
+            <h1>Vehiculos</h1>
+        </div>
+
+        <div class="row" id="SubtituloIndiceVehiculos">
+            <h5>
+               Los vehiculos se refiere a los autos que estaran disponibles dentro de la plataforma para que estos 
+               puedan ser alquilados por los clientes
+            </h5>
+        </div>
+
+        <div class="row" id="BotonCrearIndiceVehiculo">
+            <a asp-action="Crear" class="btn mb-3">Crear</a>
+        </div>
+
+        <div class="row" id="TablaIndiceVehiculos">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Acciones</th>
+                        <th>Modelo</th>
+                        <th>Numero De Plazas</th>
+                        <th>Kilometraje</th>
+                        <th>Tipo de transmision</th>
+                        <th>Color</th>
+                        <th>Valor del alquiler</th>
+                        <th>Placa</th>
+                        <th>Marca</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Vehiculo in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="btn" asp-action="Editar" asp-route-id="@Vehiculo.Id" id="BotonEditarIndiceVehiculo">Editar</a>
+                                <a class="btn" asp-action="Borrar" asp-route-id="@Vehiculo.Id" id="BotonBorrarIndiceVehiculo">Borrar</a>
+                            </td>
+                            <td>
+                                @Vehiculo.Modelo
+                            </td>
+                            <td>
+                                @Vehiculo.NumeroDePlazas
+                            </td>
+                            <td>
+                                @Vehiculo.Kilometraje
+                            </td>
+                            <td>
+                                @Vehiculo.TipoDeCaja
+                            </td>
+                            <td>
+                                @Vehiculo.Color
+                            </td>
+                            <td>
+                                @Vehiculo.ValorDeAlquiler
+                            </td>
+                            <td>
+                                @Vehiculo.Placa
+                            </td>
+                            <td>
+                                @Vehiculo.NombreMarca
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

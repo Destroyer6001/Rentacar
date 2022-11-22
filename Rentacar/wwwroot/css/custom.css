@@ -1,0 +1,453 @@
+﻿#TituloCrearMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCrearMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearMarca {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#CrearMarcaBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoMarcaCrear {
+    border-radius: 10px
+}
+
+
+#CrearMarcaCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#IndexMarcas {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndiceMarcas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloIndiceMarcas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndiceMarcas {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearIndiceMarcas {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarIndiceMarcas {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarIndiceMarcas {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#EditarMarca {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#EditarMarcaBoton {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#EditarMarcaCancelar {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoMarcaEditar {
+    border-radius: 10px
+}
+
+#BorrarMarca {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrarMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrarMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloBorrarMarca {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrarMarca {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#botonCancelarBorrarMarca {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#NoEncontradoLink {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloNoEncontrado {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#NoEncontrado {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloCrearVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloCitaVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioCrearVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#CrearVehiculo {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#boton-crearVehiculo {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#CampoVehiculoCrear {
+    border-radius: 10px
+}
+
+
+#boton-CancelarVehiculo {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#IndexVehiculos {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloIndiceVehiculos {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloIndiceVehiculos {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TablaIndiceVehiculos {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonCrearIndiceVehiculo {
+    margin-top: 30px;
+    background: #85C1E9;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 135px;
+    height: 45px;
+    font-size: 17px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonEditarIndiceVehiculo {
+    background: #58D68D;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+#BotonBorrarIndiceVehiculo {
+    background: #EC7063;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#EditarVehiculo {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#TituloEditarVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloEditarVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#FormularioEditarVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#boton-editarVehiculo {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#boton-CancelarVehiculo {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}
+
+#BorrarVehiculo {
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 5px 5px 0 aqua;
+    background-color: lavender;
+}
+
+#FormularioBorrarVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#TituloBorrarVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#SubtituloBorrarVehiculo {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+}
+
+#BotonBorrarVehiculo {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 47px;
+    font-size: 17px;
+}
+
+#botonCancelarVehiculo {
+    margin-top: 30px;
+    background: #A6ACAF;
+    border-radius: 20px;
+    box-shadow: 5px 5px #FFFFFF;
+    color: #000000;
+    width: 110px;
+    height: 45px;
+    font-size: 17px;
+}

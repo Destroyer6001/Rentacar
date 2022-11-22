@@ -1,0 +1,21 @@
+﻿@model MarcaViewModel
+@{
+    ViewData["Title"] = "Borrar";
+}
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="BorrarMarca">
+        <div class="row" id="TituloBorrarMarca">
+            <h1>Borrar </h1>
+        </div>
+        <div class="row" id="SubtituloBorrarMarca">
+            <h3 class="mb-3">¡Esta seguro que desea borrar la marca @Model.Descripcion</h3>
+        </div>
+        <div class="row" id="FormularioBorrarMarca">
+            <form asp-action="BorrarMarca">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn" id="BotonBorrarMarca">Borrar</button>
+                <a class="btn" asp-action="Index" id="botonCancelarBorrarMarca">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>

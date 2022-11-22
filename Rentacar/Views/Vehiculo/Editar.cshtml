@@ -1,0 +1,84 @@
+﻿@model VehiculoCreacionViewModel
+
+@{
+    ViewData["Title"] = "EditarVehiculo";
+}
+
+<div class="row">
+    <div class="col-md-8  offset-md-2 by-10" id="EditarVehiculo">
+
+        <div class="row" id="TituloEditarVehiculo">
+            <h1>Editar Vehiculo</h1>
+        </div>
+
+        <div class="row" id="SubtituloEditarVehiculo">
+            <h5>
+                Los vehiculos se refiere a los autos que estaran disponibles dentro de la plataforma para que estos
+                puedan ser alquilados por los clientes
+            </h5>
+        </div>
+
+        <div class="row" id="FormularioEditarVehiculo">
+            <form asp-action="Editar">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="Modelo" class="form-label"></label>
+                    <input asp-for="Modelo" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="Modelo" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NumeroDePlazas" class="form-label"></label>
+                    <input asp-for="NumeroDePlazas" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="NumeroDePlazas" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Kilometraje" class="form-label"></label>
+                    <input asp-for="Kilometraje" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="Kilometraje" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TipoDeCaja" class="form-label"></label>
+                    <input asp-for="TipoDeCaja" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="TipoDeCaja" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Color" class="form-label"></label>
+                    <input asp-for="Color" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="Color" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ValorDeAlquiler" class="form-label"></label>
+                    <input asp-for="ValorDeAlquiler" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="ValorDeAlquiler" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Placa" class="form-label"></label>
+                    <input asp-for="Placa" class="form-control" id="CampoVehiculoCrear" />
+                    <span asp-validation-for="Placa" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="IdMarca" class="form-label"></label>
+                    <select asp-for="IdMarca" asp-items="Model.MarcaViewModel" class="form-select" id="CampoVehiculoCrear"></select>
+                    <span asp-validation-for="IdMarca" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn" id="boton-editarVehiculo">Enviar</button>
+                <a class="btn" asp-action="Index" id="boton-CancelarVehiculo">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

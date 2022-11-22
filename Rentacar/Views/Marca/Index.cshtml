@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MarcaViewModel>
+@{
+    ViewData["Title"] = "Marcas";
+}
+
+<div class="row">
+    <div class="col-md-10 offset-md-1 by-10" id="IndexMarcas">
+        <div class="row" id="TituloIndiceMarcas">
+            <h1>Marcas</h1>
+        </div>
+
+        <div class="row" id="SubtituloIndiceMarcas">
+            <h5>Una marca hace referencia a la empresa fabricante del auto</h5>
+        </div>
+
+        <div class="row" id="BotonCrearIndiceMarcas">
+            <a asp-action="Crear" class="btn mb-3">Crear</a>
+        </div>
+
+        <div class="row" id="TablaIndiceMarcas">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Acciones</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Marcas in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a class="btn" asp-action="Editar" asp-route-id="@Marcas.Id" id="BotonEditarIndiceMarcas">Editar</a>
+                                <a class="btn" asp-action="Borrar" asp-route-id="@Marcas.Id" id="BotonBorrarIndiceMarcas">Borrar</a>
+                            </td>
+                            <td>
+                                @Marcas.Descripcion
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
